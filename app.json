@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "fitphy-beta",
+    "slug": "fitphy-beta",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/fitphy_logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/fitphy_logo.png",
+      "resizeMode": "center",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.atirun.fitphybeta"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/fitphy_logo.png",
+        "backgroundColor": "#ffffff",
+        "resizeMode": "center"
+      },
+      "package": "com.atirun.fitphybeta"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme": "fitphybeta",
+    "extra": {
+      "eas": {
+        "projectId": "ae6fc3dd-ddf9-4865-b57c-322b229b352d"
+      }
+    }
+  }
+}
